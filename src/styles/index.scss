@@ -1,8 +1,83 @@
 @import "~bootstrap/scss/bootstrap";
-@import "custom";
-$body-color: slateblue;
+// $body-color: slateblue;
 
 body {
-  color: $body-color;
-  font-family: sans-serif;
+  padding-top: 56px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+section {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  min-height: 40vh;
+}
+.jumbotron {
+  background: none;
+}
+hr {
+  background: lightseagreen;
+}
+.icon-container .fa-user-friends {
+  font-size: 3rem;
+  // color: #17a2b8;
+  margin-bottom: 2rem;
+}
+.icon-container .fa-users-cog {
+  font-size: 3rem;
+  // color: #17a2b8;
+  margin-bottom: 2rem;
+}
+.icon-container .fa-hands-helping {
+  font-size: 3rem;
+  // color: #17a2b8;
+  margin-bottom: 2rem;
+}
+.for-whom .card {
+  border: none;
+}
+.small-square-image {
+  width: 50px;
+  height: 50px;
+}
+.map {
+  position: relative;
+  min-height: 60vh;
+}
+.map::after {
+  background: url(..//assets/img/map.png.jpg) no-repeat center center fixed;
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.map .vertical-center {
+  margin-top: 10%;
+  // opacity: 1 !important;
+}
+// .register-form {
+//   opacity: 1;
+// }
+// .svg-inline--fa {
+//   font-size: 3rem;
+//   color: lightseagreen;
+// }
+// .starter-template {
+//   padding: 3rem 1.5rem;
+//   text-align: center;
+// }
+
+// .container {
+//   background: rgb(205, 234, 240);
+// }
+// .container-fluid {
+//   // background: lightcyan;
+// }
+// Small devices (landscape phones, 576px and up)
+// @media (max-width: 576px) {
+//   .container-fluid {
+//     background: white;
+//   }
+// }
